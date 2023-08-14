@@ -1,7 +1,7 @@
 <script setup>
 //Vueuse插件工具
   import { useScroll } from '@vueuse/core'
-  import { useCategoryStore } from '@/stores/category'
+  import { useCategoryStore } from '@/stores/categoryStore'
   const {y} = useScroll(window)
   const categoryStore = useCategoryStore()
 
@@ -16,7 +16,7 @@
       <!-- 导航区域 -->
       <ul class="app-header-nav ">
         <li class="home" v-for="item in categoryStore.categoryList" :key="item.id">
-          <RouterLink to="/">{{ item.name }}</RouterLink>
+          <RouterLink :to="`/category/${item.id}`">{{ item.name }}</RouterLink>
         </li>
       </ul>
 
@@ -113,4 +113,4 @@
     }
   }
 }
-</style>
+</style>@/stores/categoryStore
