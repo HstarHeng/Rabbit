@@ -9,7 +9,7 @@ import {useUserStore} from '@/stores/userStore'
 const userStore = useUserStore()
 // 表单数据对象
 const form = ref({
-  account: '1311111111',    
+  account: 'xiaotuxian001',    
   password: '123456',
   agree: true
 })
