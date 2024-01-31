@@ -19,6 +19,6 @@ npm install
 npm run dev
 ```
 
-4.账号密码  
+4. **账号密码**  
 xiaotuxian001  
 123456
