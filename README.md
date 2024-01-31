@@ -3,7 +3,6 @@
 ## VUE3 + JS(ES6) + Vite4 + Pinia + Element Plus  
 
 1. **获取项目文件**  
-首先，你需要通过 Git 克隆项目的所有文件。
 ```bash
 git clone https://github.com/HstarHeng/Rabbit.git
 ```
